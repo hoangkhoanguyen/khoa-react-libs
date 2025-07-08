@@ -1,5 +1,5 @@
 {
-    "name": "lib-name",
+    "name": "khoa-test-lib",
     "version": "1.0.0",
     "description": "Your description",
     "main": "dist/index.umd.js",

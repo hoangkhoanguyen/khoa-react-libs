@@ -20,9 +20,9 @@ export default defineConfig(({ command, mode }) => {
             build: {
                 lib: {
                     entry: path.resolve(__dirname, "src/index.ts"),
-                    name: "Button",
+                    name: "My components",
                     formats: ["es", "umd"],
-                    fileName: (format) => `button.${format}.js`,
+                    fileName: (format) => `index.${format}.js`,
                 },
                 rollupOptions: {
                     external: ["react", "react-dom"],
